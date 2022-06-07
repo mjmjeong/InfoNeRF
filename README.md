@@ -1,7 +1,7 @@
 
 # InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering 
 ### CVPR 2022
-### [Project](https://cv.snu.ac.kr/research/InfoNeRF/) | [Paper](https://arxiv.org/abs/2112.15399) 
+### [Project](https://cv.snu.ac.kr/research/InfoNeRF/) | [Paper](https://arxiv.org/abs/2112.15399) | [Video](https://www.youtube.com/embed/WNWuc281cQQ) 
 
 Pytorch implementation of our method for regularizing nerual radiance fields for few-shot neural volume rendering.
 
@@ -122,11 +122,11 @@ bash train.sh
 If you find our work useful in your research, please cite:
 
 ```
-@inproceedings{kim2022infonerf},
-            title = {InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering},
+@inproceedings{kim2022infonerf,
             author = {Mijeong Kim and Seonguk Seo and Bohyung Han},
-            booktitle = {CVPR}
-            year = {2022},
+            booktitle = {CVPR},
+            title = {InfoNeRF: Ray Entropy Minimization for Few-Shot Neural Volume Rendering},
+            year = {2022}
         }
 ```
 
