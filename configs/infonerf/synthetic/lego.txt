@@ -1,0 +1,33 @@
+expname = synthetic/infonerf/lego
+basedir = ./logs
+datadir = ./data/nerf_synthetic/lego
+dataset_type = blender
+ 
+no_batching = True
+chunk=8192
+ 
+use_viewdirs = True
+white_bkgd = True
+lrate_decay = 500
+ 
+N_samples = 64
+N_importance = 128
+N_rand = 1024
+N_iters = 50002
+
+i_video=1000000
+i_testset=25000
+
+# Entropy
+entropy = True
+N_entropy = 1024
+entropy_ray_zvals_lambda = 0.001
+precrop_iters = 500
+precrop_frac = 0.5
+no_batching = True
+wandb = False
+i_wandb = 10
+ 
+half_res = False
+fewshot = 4
+train_scene = [26, 86, 2, 55]

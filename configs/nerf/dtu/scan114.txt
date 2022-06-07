@@ -1,0 +1,42 @@
+expname = dtu/nerf/scan114
+basedir = ./logs
+datadir = ./data/DTU/scan114
+dataset_type = dtu
+
+fewshot = 3
+
+N_rand = 1024
+N_samples = 64
+N_importance = 128
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+chunk = 8192
+netchunk = 16384
+netdepth = 4
+
+i_testset = 2500
+i_video = 10000
+N_iters = 10001
+
+N_entropy=1024
+computing_entropy_all=False
+entropy=False
+entropy_ray_zvals_lambda=0.002
+entropy_ignore_smoothing=False
+entropy_acc_threshold=0.01
+
+smoothing=False
+smoothing_activation=norm
+smoothing_lambda=0.00002
+near_c2w_rot=5
+smoothing_rate=0.5
+
+wandb=True
+i_wandb = 10
+
+no_batching=True
+train_scene = [22, 25,28]
+test_scene = [-1]
+no_ndc = True
