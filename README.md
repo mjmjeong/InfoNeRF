@@ -58,13 +58,13 @@ Seoul National University
 ## Installation
 ```
 git clone https://github.com/mjmjeong/InfoNeRF.git
-cd INfoNeRF
+cd InfoNeRF
 pip install -r requirements.txt
 ```
 or
 ```
 git clone https://github.com/mjmjeong/InfoNeRF.git
-cd INfoNeRF
+cd InfoNeRF
 conda env create -f environment.yaml
 conda activate infonerf
 ```
