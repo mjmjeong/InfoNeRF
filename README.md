@@ -102,7 +102,7 @@ To play with other scenes presented in the paper, download the data [here](https
 |   |   └── ...
 ```
 
-### Training Squentially for one dataset
+### Training Sequentially
 
 To repeat the same experiments on other scenes in the same dataset, follow these steps:
 
