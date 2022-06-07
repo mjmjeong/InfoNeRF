@@ -111,7 +111,7 @@ First, duplicate the config files using `duplicate_config.py` file:
 python duplicate_config.py 
 ```
 
-second, change and run `train.sh` for sequential training:
+Second, change and run `train.sh` for sequential training:
 ```
 bash train.sh
 ```
